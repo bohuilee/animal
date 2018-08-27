@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "613515940725",
+    "project_id": "animal-1274"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613515940725:android:dc71285758146562",
+        "android_client_info": {
+          "package_name": "tw.com.bobolee.animal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9KOp6aKZxy1fcIkEzNWG7rLJAwtM9LRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-80341279-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

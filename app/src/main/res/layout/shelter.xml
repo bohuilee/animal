@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ShelterImageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/ShelterNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000011"
+            android:textSize="15sp"
+            android:layout_toEndOf="@+id/ShelterImageView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ShelterAddressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000011"
+            android:textSize="15sp"
+            android:layout_below="@+id/ShelterNameTextView"
+            android:layout_toEndOf="@+id/ShelterImageView" />
+
+        <TextView
+            android:id="@+id/ShelterPhoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000011"
+            android:textSize="15sp"
+            android:layout_below="@+id/ShelterAddressTextView"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/ShelterImageView"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Go Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="AskForExit">Please click BACK again to exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="about">About</string>
+    <string name="use_info">Info</string>
+    <string name="api_url">http://210.71.198.90/Animal_backstage/</string>
+
+    <!-- animalList -->
+    <string name="emptyList">Nothing to show</string>
+
+    <!-- activity_animal_detail.xml -->
+    <string name="AnimalInfo">Animal Info.</string>
+
+    <!-- AnimalDetailActivity.java -->
+    <string name="AnimalSubID">ID</string>
+    <string name="AdoptBegin">Begin</string>
+    <string name="AdoptEnd">End</string>
+    <string name="None">N/A</string>
+    <string name="LeftDay1"> </string>
+    <string name="LeftDay2">day left</string>
+    <string name="Location">Location</string>
+    <string name="Sex">Sex</string>
+    <string name="BodyType">BodyType</string>
+    <string name="Neuter">Neuter</string>
+    <string name="RabiesVaccine">Rabies vaccine</string>
+    <string name="Remark">Remark</string>
+    <string name="CautionSubID">In order to verify the animal\'s current position,please provide animal\'s ID to the staff.</string>
+
+    <!--MainActivity.java-->
+    <string name="NewAnimal">New</string>
+    <string name="ExpiringAnimal">Expiring</string>
+    <string name="FavoriteAnimal">Favorite</string>
+
+    <!--WelcomeActivity.java-->
+    <string name="CheckNetworkState">Please check your network state.</string>
+    <string name="CheckingVersion">Checking data version,please wait a second.</string>
+    <string name="DownloadingData">Downloading Data,please wait a second.</string>
+
+    <!--shelter_detail.xml-->
+    <string name="Shelter">Shelter</string>
+    <string name="OpenTime">Open Time</string>
+
+    <!--activity_main_drawer.xml-->
+    <string name="HomePage">Home</string>
+    <string name="ShelterList">ShelterList</string>
+    <string name="HandUpdate">Animal List Update</string>
+
+    <!--MultiSelectSpinner-->
+    <string name="PleaseSelect">Please select</string>
+    <string name="SubmitSelect">Submit</string>
+    <string name="CancelSelect">Cancel</string>
+
+    <!--Search-->
+    <string name="NoResult">No such animal is found</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HomePage"
+            android:icon="@drawable/ic_nav_homepage"
+            android:title="@string/HomePage" />
+        <item
+            android:id="@+id/nav_Area"
+            android:icon="@drawable/ic_nav_shelter"
+            android:title="@string/ShelterList" />
+        <item
+            android:id="@+id/nav_Search"
+            android:icon="@drawable/ic_nav_search"
+            android:title="@string/search_title" />
+        <!--
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+            -->
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_use_info"
+            android:icon="@drawable/ic_use_info"
+            android:title="@string/use_info" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+        <!--
+        <item
+            android:id="@+id/nav_hand_update"
+            android:icon="@drawable/ic_hand_update"
+            android:title="@string/HandUpdate" />
+        -->
+    </group>
+
+</menu>

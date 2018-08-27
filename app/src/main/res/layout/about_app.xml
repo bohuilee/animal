@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:lineSpacingExtra="2dp"
+            android:text="動物認養App提供想要認養動物的民眾一個平台，動物資料是全台各縣市公立收容所收容的流浪動物。\n\n資料提供者為政府資料開放平台\n(http://data.gov.tw/)。\n\n請以認養代替購買，讓流浪動物們可以有更好的生活。\n\n如有任何建議歡迎來信。\n\n程式作者：BOBI\n服務信箱：b520074@gmail.com"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorBlack"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:scaleType="centerInside"
+            android:src="@drawable/pic_signature" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/TitleImageView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="3dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical|center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Large Text"
+        android:id="@+id/ContentTextView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorBlack"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerVertical="true"
+        android:autoLink="web"
+        android:textIsSelectable="true"
+        android:paddingRight="50dp"
+        android:layout_toEndOf="@+id/TitleImageView"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_toStartOf="@+id/PhoneCallImageButton" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="3dp"
+        android:layout_marginBottom="8dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/PhoneCallImageButton"
+        android:gravity="center_vertical|center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

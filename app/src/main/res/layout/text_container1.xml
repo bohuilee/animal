@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/ContentTextView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Large Text"
+        android:id="@+id/TitleTextView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#AAAAAA"
+        android:textColor="@color/colorBlack"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical|center"
+        android:layout_alignBottom="@+id/ContentTextView"
+        android:textIsSelectable="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Large Text"
+        android:id="@+id/ContentTextView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/TitleTextView"
+        android:textColor="@color/colorBlack"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#DDDDDD"
+        android:textIsSelectable="true"
+        android:clickable="true" />
+</RelativeLayout>

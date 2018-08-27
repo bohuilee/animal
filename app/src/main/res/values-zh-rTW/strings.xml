@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">浪浪回家</string>
+    <string name="navigation_drawer_open">打開側邊選單</string>
+    <string name="navigation_drawer_close">關閉側邊選單</string>
+    <string name="AskForExit">再次點擊返回鍵退出</string>
+    <string name="action_settings">設定</string>
+    <string name="search_title">搜尋</string>
+    <string name="search_hint">搜尋</string>
+    <string name="about">關於</string>
+    <string name="use_info">注意事項</string>
+    <string name="api_url">http://210.71.198.90/Animal_backstage/</string>
+
+    <!-- animalList -->
+    <string name="emptyList">沒有資料</string>
+
+    <!-- activity_animal_detail.xml -->
+    <string name="AnimalInfo">動物資訊</string>
+
+    <!-- AnimalDetailActivity.java -->
+    <string name="AnimalSubID">區域編號</string>
+    <string name="AdoptBegin">開始認養</string>
+    <string name="AdoptEnd">結束認養</string>
+    <string name="None">暫無</string>
+    <string name="LeftDay1">剩餘</string>
+    <string name="LeftDay2">天</string>
+    <string name="Location">所在地</string>
+    <string name="Sex">性別</string>
+    <string name="BodyType">體型</string>
+    <string name="Neuter">結紮</string>
+    <string name="RabiesVaccine">狂犬病疫苗</string>
+    <string name="Remark">備註</string>
+    <string name="CautionSubID">請提供區域編號給所屬收容所，以確認動物實際所在地。</string>
+
+    <!--MainActivity.java-->
+    <string name="NewAnimal">新開放認養</string>
+    <string name="ExpiringAnimal">即將認養到期</string>
+    <string name="FavoriteAnimal">我的最愛</string>
+
+    <!--WelcomeActivity.java-->
+    <string name="CheckNetworkState">請檢查網路狀態</string>
+    <string name="CheckingVersion">檢查最新動物清單中，請稍候</string>
+    <string name="DownloadingData">下載最新動物清單中，請稍候</string>
+
+    <!--shelter_detail.xml-->
+    <string name="Shelter">收容所</string>
+    <string name="OpenTime">開放時間</string>
+
+    <!--activity_main_drawer.xml-->
+    <string name="HomePage">首頁</string>
+    <string name="ShelterList">各地公立收容所</string>
+    <string name="HandUpdate">檢查動物名單更新</string>
+
+    <!--MultiSelectSpinner-->
+    <string name="PleaseSelect">請選擇</string>
+    <string name="SubmitSelect">確定</string>
+    <string name="CancelSelect">取消</string>
+
+    <!--Search-->
+    <string name="NoResult">無符合條件的動物</string>
+</resources>
